@@ -33,3 +33,9 @@ Install OpenCV :
    pip install opencv-python  
 ```
 
+
+## Documentation
+
+You can refer more info from  this document
+
+[link to Document](docs/FaceDetection.md)
