@@ -52,8 +52,9 @@ images that do not contain faces. The training process, known as
 AdaBoost, selects a subset of Haar-like features that are most effective
 at distinguishing faces from non-facial regions.
 
-![](media/image1.png){width="2.9583333333333335in"
-height="2.9895833333333335in"}
+
+![image](https://github.com/swarupa22/Face-Detection-and-Tracking/assets/134698070/c8bf9a59-872d-4afc-b316-d94928a0ba17)
+
 
 **Detect Multiscale:**
 
@@ -69,7 +70,12 @@ each image scale.
 **minNeighbors** — It specifies how many neighbors each candidate
 rectangle should have to retain it.
 
+
 **WORKFLOW :**
+
+
+![image](https://github.com/swarupa22/Face-Detection-and-Tracking/assets/134698070/e5f9517b-a7b7-4251-9f37-87f1e261df0a)
+
 
 **CODE IMPLEMENTATION:**
 
@@ -107,13 +113,18 @@ cv2.destroyAllWindows()
 
 **Gray Image**
 
-![](media/image2.png){width="5.90625in" height="2.9800688976377954in"}
+
+![image](https://github.com/swarupa22/Face-Detection-and-Tracking/assets/134698070/af42962f-8499-4cd1-a0b7-901838b19005)
+
 
 **Face Detection**
 
-![](media/image3.png){width="6.322916666666667in" height="3.59375in"}
 
-**2) Face Detection in Video **
+![image](https://github.com/swarupa22/Face-Detection-and-Tracking/assets/134698070/a5458d5d-8249-4abb-9b0f-335529bb57d9)
+
+
+**2) Face Detection in Video**
+
 
 import cv2
 
@@ -160,20 +171,27 @@ video.release()
 
 cv2.destroyAllWindows()
 
-![](media/image4.png){width="2.7395833333333335in" height="1.8125in"}
-![](media/image5.png){width="2.7604166666666665in"
-height="1.8055555555555556in"}
 
-![](media/image6.png){width="2.875in" height="1.8645833333333333in"}
-![](media/image7.png){width="2.895209973753281in"
-height="1.8756944444444446in"}
+![image](https://github.com/swarupa22/Face-Detection-and-Tracking/assets/134698070/d351ad44-222c-4cde-afc7-34a4426782cc)
 
-![](media/image8.jpeg){width="2.8645833333333335in"
-height="1.611288276465442in"}
-![](media/image9.jpeg){width="2.8958333333333335in"
-height="1.5624606299212598in"}
 
-**2)Face Detection using WebCam**
+![image](https://github.com/swarupa22/Face-Detection-and-Tracking/assets/134698070/a6fcb197-ad5f-4083-8f43-ac530f765f44)
+
+
+![image](https://github.com/swarupa22/Face-Detection-and-Tracking/assets/134698070/ba8e298f-52c7-4733-a8ea-ddfe9eaaf00d)
+
+
+![image](https://github.com/swarupa22/Face-Detection-and-Tracking/assets/134698070/004d4ba4-1e72-46f8-a3dc-af5a062f8c4d)
+
+
+![image](https://github.com/swarupa22/Face-Detection-and-Tracking/assets/134698070/e4aa2421-0045-4fa3-bac7-aa68238fedcb)
+
+
+![image](https://github.com/swarupa22/Face-Detection-and-Tracking/assets/134698070/61bcc5b0-f45a-4c2f-b354-e67da657b70d)
+
+
+
+**3)Face Detection using WebCam**
 
 import cv2
 
@@ -214,7 +232,7 @@ webcam.release()
 
 cv2.destroyAllWindows()
 
-**3)Create Face Database for Face recognition of every individual:**
+**4)Create Face Database for Face recognition of every individual:**
 
 import cv2
 
