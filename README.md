@@ -37,4 +37,4 @@ Install OpenCV :
 
 You can refer more info from  this document
 
-[link to Document](Face Detection and Tracking/docs/FaceDetection.md)
+[link to Document](Face-Detection-and-Tracking/docs/FaceDetection.md)
